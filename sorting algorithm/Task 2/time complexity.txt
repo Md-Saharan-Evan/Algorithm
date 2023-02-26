@@ -1,0 +1,8 @@
+we know merge sort is outplace sorting algorithm so it,s best and worst case is same.
+lets prove the big O notation for merge sort for worst case
+
+T(n) = 2T(n/2) + n
+     <= 2cn/2Log(n/2) + n
+       =  cnLogn – cnLog2 + n
+       =  cnLogn – cn + n
+    <= cnLogn
